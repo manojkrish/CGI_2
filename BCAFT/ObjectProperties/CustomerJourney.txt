@@ -1,0 +1,3 @@
+Country.xpath=//select[contains(@id,'ddlCountry')]
+CountinueBtn.xpath=//input[contains(@id,'imgbRegisterBtn')]
+ApplyNowBtn.Xpath=//input[contains(@id,'ibtnBookNow')]

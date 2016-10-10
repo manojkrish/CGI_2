@@ -1,0 +1,4 @@
+CJ_URL=http://ielts.uat.britishcouncil.org/
+Admin_URL=http://ieltsadmin.uat.britishcouncil.org/
+B2B_URL=http://ieltsb2b.uat.britishcouncil.org/
+UKVICJ_URL=http://ieltsukvisas-uat.britishcouncil.org/

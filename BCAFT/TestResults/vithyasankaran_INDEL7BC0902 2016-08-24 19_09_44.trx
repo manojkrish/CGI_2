@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d538a905-2e8a-43d9-b7f1-9d2ed4a59435" name="vithyasankaran@INDEL7BC0902 2016-08-24 19:09:44" runUser="CORPORATE\vithyasankaran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="00d6f716-3534-4b97-9a79-c787cd8e74bb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="vithyasankaran_INDEL7BC0902 2016-08-24 19_09_44">
+      <DeploymentItem filename="C:\ORS Testing\Selenium\C#_WS\BCAFT\packages\Selenium.WebDriver.2.53.1\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\ORS Testing\Selenium\C#_WS\BCAFT\packages\Selenium.Support.2.53.1\lib\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-08-24T19:09:44.4504798+05:30" queuing="2016-08-24T19:09:47.9627374+05:30" start="2016-08-24T19:09:48.1289634+05:30" finish="2016-08-24T19:11:47.9857706+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\ors testing\selenium\c#_ws\bcaft\bcaft\bin\debug\bcaft.dll" id="ee6dbebb-5e79-c183-4814-f2a7c415b3ec">
+      <Execution id="549dc24c-f26c-4ea8-92ec-2b1d1076e15c" />
+      <TestMethod codeBase="C:/ORS Testing/Selenium/C#_WS/BCAFT/BCAFT/bin/Debug/BCAFT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BCAFT.RunTest, BCAFT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\ors testing\selenium\c#_ws\bcaft\bcaft\bin\debug\bcaft.dll" id="3bacb456-3dd6-4d6e-eca6-405a65e5502c">
+      <Execution id="c311ddae-6bb2-4251-944f-06891ea49d9b" />
+      <TestMethod codeBase="C:/ORS Testing/Selenium/C#_WS/BCAFT/BCAFT/bin/Debug/BCAFT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BCAFT.UnitTest1, BCAFT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ee6dbebb-5e79-c183-4814-f2a7c415b3ec" executionId="549dc24c-f26c-4ea8-92ec-2b1d1076e15c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bacb456-3dd6-4d6e-eca6-405a65e5502c" executionId="c311ddae-6bb2-4251-944f-06891ea49d9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="549dc24c-f26c-4ea8-92ec-2b1d1076e15c" testId="ee6dbebb-5e79-c183-4814-f2a7c415b3ec" testName="TestMethod1" computerName="INDEL7BC0902" duration="00:01:58.1925868" startTime="2016-08-24T19:09:48.2893226+05:30" endTime="2016-08-24T19:11:47.7999316+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="549dc24c-f26c-4ea8-92ec-2b1d1076e15c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BCAFT.RunTest.TestMethod1 threw exception: 
+System.ArgumentException: Value does not fall within the expected range.</Message>
+          <StackTrace>    at TDAPIOLELib.IAttachmentFactory.AddItem(Object ItemData)
+   at BCAFT.CommonLibraries.qcResultUpdate() in C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\CommonLibraries.cs:line 676
+   at BCAFT.MainClass.executeTestCase(DataTable dtRunInfo) in C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\MainClass.cs:line 95
+   at BCAFT.MainClass.run() in C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\MainClass.cs:line 28
+   at BCAFT.RunTest.TestMethod1() in C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\RunTest.cs:line 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c311ddae-6bb2-4251-944f-06891ea49d9b" testId="3bacb456-3dd6-4d6e-eca6-405a65e5502c" testName="TestMethod1" computerName="INDEL7BC0902" duration="00:00:00.0003597" startTime="2016-08-24T19:11:47.8204717+05:30" endTime="2016-08-24T19:11:47.8273184+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c311ddae-6bb2-4251-944f-06891ea49d9b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

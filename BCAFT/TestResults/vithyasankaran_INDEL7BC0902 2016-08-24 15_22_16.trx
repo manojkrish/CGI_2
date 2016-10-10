@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bdae3fa7-7eba-444a-ad19-83aa4054f9cc" name="vithyasankaran@INDEL7BC0902 2016-08-24 15:22:16" runUser="CORPORATE\vithyasankaran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="00d6f716-3534-4b97-9a79-c787cd8e74bb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="vithyasankaran_INDEL7BC0902 2016-08-24 15_22_16">
+      <DeploymentItem filename="C:\ORS Testing\Selenium\C#_WS\BCAFT\packages\Selenium.WebDriver.2.53.1\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\ORS Testing\Selenium\C#_WS\BCAFT\packages\Selenium.Support.2.53.1\lib\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-08-24T15:22:16.0361334+05:30" queuing="2016-08-24T15:22:21.5103872+05:30" start="2016-08-24T15:22:21.6669622+05:30" finish="2016-08-24T15:32:31.6252264+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="2" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="INDEL7BC0902" outcome="Error" timestamp="2016-08-24T15:32:31.6242491+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\ors testing\selenium\c#_ws\bcaft\bcaft\bin\debug\bcaft.dll" id="ee6dbebb-5e79-c183-4814-f2a7c415b3ec">
+      <Execution id="eec4e621-421e-4c37-82e8-c395b6ff9a30" />
+      <TestMethod codeBase="C:/ORS Testing/Selenium/C#_WS/BCAFT/BCAFT/bin/Debug/BCAFT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BCAFT.RunTest, BCAFT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\ors testing\selenium\c#_ws\bcaft\bcaft\bin\debug\bcaft.dll" id="3bacb456-3dd6-4d6e-eca6-405a65e5502c">
+      <Execution id="8cdb8eb0-edef-4e40-99ed-bd0451b1710f" />
+      <TestMethod codeBase="C:/ORS Testing/Selenium/C#_WS/BCAFT/BCAFT/bin/Debug/BCAFT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BCAFT.UnitTest1, BCAFT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ee6dbebb-5e79-c183-4814-f2a7c415b3ec" executionId="eec4e621-421e-4c37-82e8-c395b6ff9a30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bacb456-3dd6-4d6e-eca6-405a65e5502c" executionId="8cdb8eb0-edef-4e40-99ed-bd0451b1710f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="eec4e621-421e-4c37-82e8-c395b6ff9a30" testId="ee6dbebb-5e79-c183-4814-f2a7c415b3ec" testName="TestMethod1" computerName="INDEL7BC0902" duration="00:10:09.8016892" startTime="2016-08-24T15:22:21.8235372+05:30" endTime="2016-08-24T15:32:31.6252264+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eec4e621-421e-4c37-82e8-c395b6ff9a30">
+    </UnitTestResult>
+    <UnitTestResult executionId="8cdb8eb0-edef-4e40-99ed-bd0451b1710f" testId="3bacb456-3dd6-4d6e-eca6-405a65e5502c" testName="TestMethod1" computerName="INDEL7BC0902" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cdb8eb0-edef-4e40-99ed-bd0451b1710f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

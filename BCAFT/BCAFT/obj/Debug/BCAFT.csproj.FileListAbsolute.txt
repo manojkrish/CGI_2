@@ -1,0 +1,10 @@
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\bin\Debug\BCAFT.dll
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\bin\Debug\BCAFT.pdb
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\bin\Debug\WebDriver.dll
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\bin\Debug\WebDriver.Support.dll
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\bin\Debug\WebDriver.xml
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\bin\Debug\WebDriver.Support.xml
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\obj\Debug\BCAFT.dll
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\obj\Debug\BCAFT.pdb
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\obj\Debug\Interop.TDAPIOLELib.dll
+C:\ORS Testing\Selenium\C#_WS\BCAFT\BCAFT\obj\Debug\BCAFT.csproj.ResolveComReference.cache

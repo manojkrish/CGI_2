@@ -1,0 +1,5 @@
+Username.Xpath=//input[contains(@id,'ContentPlaceHolder1_txtUserName')]
+Password.Xpath=//input[contains(@id,'ContentPlaceHolder1_txtPassword')]
+Login.Xpath=//input[contains(@id,'ContentPlaceHolder1_btnLogin')]
+RegistrationConfirmationDialog.Xpath=//div[contains(@class,'ui-dialog ui-widget ui-widget-content')]
+

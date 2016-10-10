@@ -1,0 +1,6 @@
+QCURL=http://10.35.6.16:8080/qcbin
+QCDomain=LOB
+QCProject=MyPerformancePortfolio
+QCLoginName=vithyasankaran
+QCPassword=
+QCTestLab=Root\test
